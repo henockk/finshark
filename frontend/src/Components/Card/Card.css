@@ -10,9 +10,9 @@
   }
   
   /* Hover Effect */
-  .card:hover {
+  /* .card:hover {
     transform: scale(1.05);
-  }
+  } */
   
   /* Card Image */
   .card-img {

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Components/Card/Card'
 import CardList from './Components/CardList/CardList'
+import Search from './Components/Search/Search'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,9 @@ function App() {
     <>
       
       <div className="card">
-     <CardList/>
+        
+        <CardList/>
+        <Search/>
       </div>
      
     </>
