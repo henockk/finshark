@@ -14,11 +14,11 @@ const Search: React.FC<Props> = (props: Props): JSX.Element => {
   const onClick = (e:SyntheticEvent) =>{
     console.log(e);
 
-  }
+  };
     return (
     <div>
       <input value={search} onChange={(e) => handleChange(e)}></input>
-        <button onClick={(e)=> onClick}></button>
+        <button onClick={(e) => onClick(e)}></button>
     </div>
   )
 }
